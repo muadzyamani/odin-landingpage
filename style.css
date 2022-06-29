@@ -4,6 +4,8 @@ body {
     height: 100vh;
 }
 
+/* --- HEADER --- */
+
 .header {
     display: flex;
     background-color: #1f2937;
@@ -73,6 +75,123 @@ body {
     justify-content: center;
     background: #a8aab0;
     height: 227px
+}
+
+/* --- CONTENT --- */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 1500px;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    padding: 0px 250px;
+    justify-content: space-evenly;
+}
+
+.top-content-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.top-content-container {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.top-content-item {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.top-content-item-box {
+    width: 150px;
+    height: 150px;
+    border: #3882f6 3px solid;
+    border-radius: 10px;
+}
+
+.top-content-item-description {
+    text-align: center;  
+    padding-top: 8px;  
+}
+
+.middle-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 540px;
+    height: 500px;
+    background: #e5e7eb;
+    justify-content: center;
+}
+
+.middle-content-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.middle-content-name {
+    font-size: 16px ;
+    font-weight: 800;
+    text-align: end;
+    padding: 0px 32px;
+}
+
+.bottom-content {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+}
+
+.bottom-content-container {
+    display: flex;
+    width: 1200px;
+    height: 150px;
+    background: #3882f6;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-content-left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bottom-content-main-text {
+    font-size: 20px;
+    font-weight: 600;
+    color: #f9faf8;
+}
+
+.bottom-content-text {
+    color: #f9faf8;
+}
+
+.bottom-content-button {
+    background: #3882f6;
+    border: #f9faf8 2px solid;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
 
 ul {
